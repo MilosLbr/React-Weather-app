@@ -1,0 +1,33 @@
+.mainInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+u {    
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+}
+
+.nameTempDesc{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.nameTempDesc:hover{
+    opacity: 1;
+    transform: scale(1.02,1.02)
+}
+.nameAndCountry{
+    font-size: 1.2rem;
+}
+
+.currentTemperature{
+    font-size: 2rem;
+}
+.celsius{
+    font-size: 1rem;
+}

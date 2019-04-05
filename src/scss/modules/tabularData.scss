@@ -1,0 +1,7 @@
+.tabularData{
+    min-height: 350px;
+
+    @include smallDevices{
+        margin-top: 30px;
+    }
+}

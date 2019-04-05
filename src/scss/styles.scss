@@ -1,0 +1,22 @@
+// base imports
+@import './base/normalize.scss';
+@import './base/mediaQueries.scss';
+@import './base/base.scss';
+
+
+// module imports
+@import './modules/navigation.scss';
+@import './modules/currentLocation.scss';
+@import './modules/chartComponents.scss';
+@import './modules/buttons.scss';
+@import './modules//searchCity.scss';
+@import './modules/tabularData.scss';
+@import './modules/tableUnit.scss';
+@import './modules/mainInfo.scss';
+@import './modules/oneDayWeather.scss';
+@import './modules//imageContainer.scss';
+
+// layout imports
+@import './layout/layout.scss';
+
+//sass --watch src/scss/styles.scss src/index.css

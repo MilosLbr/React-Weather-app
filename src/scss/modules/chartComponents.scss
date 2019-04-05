@@ -1,0 +1,65 @@
+.chartComponent{
+    background-color: rgba($color: white, $alpha: 0.85);
+    border: 1px solid transparent;
+    border-radius: 4%;
+}
+
+.chartCityName{
+    padding-left: 15px;
+}
+
+
+.chartWrapper {
+    position: relative;
+    overflow-x: scroll;
+    
+}
+.chartAreaWrapper {
+    width : 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 70vh;
+    /* overflow-x: scroll; */
+}
+
+#myCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 1200px;
+}
+
+#chartjs-tooltip{
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: rgba($color: white, $alpha: 0.85);
+    min-width: 185px;
+}
+
+.tooltipTitle{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.tooltipImage{
+    margin: 0 auto;
+}
+.tooltipImage > img{
+    position: relative;
+    left: -8px;
+}
+
+.tooltipDescription{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#chartjs-tooltip td{ 
+    border: 1px solid #ddd;
+    padding: 3px 4px;
+  }

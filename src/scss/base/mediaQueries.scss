@@ -1,0 +1,17 @@
+@mixin smallDevices {
+    @media only screen and (max-width : 48em) {
+        @content;
+    }
+}
+
+@mixin extraSmallDevices {
+    @media only screen and(max-width: 375px){
+        @content;
+    }
+}
+
+@mixin navbarCorrection {
+    @media only screen and(max-width: 520px){
+        @content;
+    }
+}

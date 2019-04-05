@@ -1,0 +1,39 @@
+.fiveDayWeather{
+    border: 1px solid transparent;
+}
+
+.fiveDayWeather > h3{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.oneDayWeather{
+    display: inline-block;
+    border-radius: 8%;
+    text-align: center;
+    padding: 8px;
+    width: 33%;
+    /* background: linear-gradient(135deg, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%);  */
+    background: linear-gradient(135deg, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); 
+
+    @include smallDevices{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    @include extraSmallDevices{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+.oneDayWeather .imageContainer{
+    margin: 0 auto;
+}
+
+.correctImagePosition{
+    position: relative;
+    left: -5px;
+}

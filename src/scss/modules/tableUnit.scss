@@ -1,0 +1,63 @@
+table{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+table tbody{
+    display: block; 
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    display: inline-block;
+    width: 49%;
+}
+
+.tableUnit{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    background: linear-gradient(135deg, #9da2a7 0%,#596a72 100%);
+    color: white;
+    min-height: 150px;
+    max-width: 33%;
+
+    @include smallDevices{
+        max-width: unset;
+        width: 90%;
+        margin-bottom: 25px;
+        border-radius: 30px;
+    }
+
+    @include extraSmallDevices{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+.currentPositionTbUnit{
+    max-width: unset;
+    width: 80%;
+    font-size: 1.2em;
+    border-radius: 35px;
+    
+    @include smallDevices{ 
+        width: 95%;
+        margin-bottom: 25px;
+    }
+
+    @include extraSmallDevices{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+.currentPositionTbUnit .nameAndCountry{
+    font-size: 1.4em ;
+}
+.currentPositionTbUnit .currentTemperature{
+    font-size: 2.8em;
+}

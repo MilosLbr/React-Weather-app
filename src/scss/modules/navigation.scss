@@ -1,0 +1,37 @@
+.navBar{
+    background-color: #343a40!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+
+    @include navbarCorrection{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10px 0 10px 20px;
+        height: 100px;
+    }
+}
+
+.navTab{
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+.active{
+    font-weight: bold;
+    color: white;
+}
+
+.navTab:hover{
+    color: white;
+    transition: 0.2s;
+    
+}
