@@ -607,6 +607,12 @@ p.explanation {
 
 .inputAndButton {
   vertical-align: middle;
+  display: flex;
+}
+@media only screen and (max-width: 48em) {
+  .inputAndButton {
+    display: block;
+  }
 }
 
 .searchInput {
@@ -739,7 +745,6 @@ td {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 110px;
 }
 
 u {
