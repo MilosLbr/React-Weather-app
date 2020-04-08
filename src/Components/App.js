@@ -8,11 +8,11 @@ import SerbianWeather from './Presentational/SerbianWeather';
 import ChartsComponent from './ChartsComponents';
 import {backgroundImages} from '../imageLoader/imageLoader';
 
-let baseUrl = 'http://api.openweathermap.org/data/2.5/';
+let baseUrl = 'https://api.openweathermap.org/data/2.5/';
 const apikey = '&appid=f8d3ddb0786656d6df4d856ace4e0148';
-const forecastRequestUrl = 'http://api.openweathermap.org/data/2.5/forecast?units=metric&appid=f8d3ddb0786656d6df4d856ace4e0148&id=';
+const forecastRequestUrl = 'https://api.openweathermap.org/data/2.5/forecast?units=metric&appid=f8d3ddb0786656d6df4d856ace4e0148&id=';
 
-const fiveSerbCitiesDataURL = 'http://api.openweathermap.org/data/2.5/group?id=3194360,792680,789128,787657,784227&units=metric&appid=f8d3ddb0786656d6df4d856ace4e0148';
+const fiveSerbCitiesDataURL = 'https://api.openweathermap.org/data/2.5/group?id=3194360,792680,789128,787657,784227&units=metric&appid=f8d3ddb0786656d6df4d856ace4e0148';
 
 class App extends React.Component{
     constructor(props){
